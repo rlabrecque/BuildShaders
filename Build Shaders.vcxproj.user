@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-list "C:\Users\Riley\Documents\Code\The Sandbox\src\materialsystem\stdshaders\stdshader_dx9_30.txt" -dx9_30 -force30 -game "C:\Games\Steam\steamapps\sourcemods\thesandbox" -source "C:\Users\Riley\Documents\Code\The Sandbox\src" -sdk "C:\Games\Steam\steamapps\dafox1\sourcesdk\bin\source2007\bin"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-list "F:\Code\Slide\src\materialsystem\stdshaders\stdshader_dx9_30.txt" -source "F:\Code\Slide\src" -game "C:\Games\Steam\steamapps\sourcemods\slide" -sdk "C:\Games\Steam\steamapps\common\alien swarm\bin" -dx9_30 -force30</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
